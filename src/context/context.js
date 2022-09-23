@@ -48,7 +48,7 @@ const GithubProvider = ({ children }) => {
         })
         .catch((err) => console.log(err));
     } else {
-      toggleError(true, "there is no user with that username");
+      toggleError(true, "Não há nenhum usuário com esse nome");
     }
     checkRequests();
     setIsLoading(false);
@@ -62,7 +62,10 @@ const GithubProvider = ({ children }) => {
         } = data;
         setRequests(remaining);
         if (remaining === 0) {
-          toggleError(true, "sorry, you fave exceeded your hourly rate limit!");
+          toggleError(
+            true,
+            "Desculpe, você excedeu o seu limite de requisições por hora!"
+          );
         }
       })
       .catch((err) => console.log(err));

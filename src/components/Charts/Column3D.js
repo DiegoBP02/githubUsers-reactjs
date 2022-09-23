@@ -26,9 +26,9 @@ const ChartComponent = ({ data }) => {
     dataSource: {
       // Chart Configuration
       chart: {
-        caption: "Most Popular",
-        yAxisName: "Stars",
-        xAxisName: "Repos",
+        caption: "Mais Populares",
+        yAxisName: "Estrelas",
+        xAxisName: "Repositórios",
         xAxisNameFontSize: "16px",
         yAxisNameFontSize: "16px",
       },

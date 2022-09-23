@@ -26,7 +26,7 @@ const ChartComponent = ({ data }) => {
     dataSource: {
       // Chart Configuration
       chart: {
-        caption: "Star Per Language",
+        caption: "Estrelas por linguagem",
         decimals: 0,
         doughnutRadius: "45%",
         showPercentValues: 0,

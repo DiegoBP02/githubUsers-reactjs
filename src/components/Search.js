@@ -29,16 +29,16 @@ const Search = () => {
             <MdSearch />
             <input
               type="text"
-              placeholder="enter github user"
+              placeholder="digite o nome do usuário"
               value={user}
               onChange={(e) => setUser(e.target.value)}
             />
             {requests > 0 && !isLoading && (
-              <button type="submit">search</button>
+              <button type="submit">Pesquisar</button>
             )}
           </div>
         </form>
-        <h3>requests : {requests} / 60</h3>
+        <h3>Requisições : {requests} / 60</h3>
       </Wrapper>
     </section>
   );

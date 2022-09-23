@@ -23,7 +23,7 @@ const Card = () => {
           <h4>{name}</h4>
           <p>@{twitter_username || "twitter"}</p>
         </div>
-        <a href={html_url}>follow</a>
+        <a href={html_url}>seguir</a>
       </header>
       <p className="bio">{bio}</p>
       <div className="links">
@@ -51,7 +51,7 @@ const Wrapper = styled.article`
   border-bottom-right-radius: var(--radius);
   position: relative;
   &::before {
-    content: "user";
+    content: "usuário";
     position: absolute;
     top: 0;
     left: 0;

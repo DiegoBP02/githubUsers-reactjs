@@ -33,7 +33,7 @@ const Wrapper = styled.article`
   position: relative;
 
   &::before {
-    content: " followers";
+    content: " seguidores";
     position: absolute;
     top: 0;
     left: 0;
